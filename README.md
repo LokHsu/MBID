@@ -1,8 +1,8 @@
 # MBID
 
-This repository contains source codes and datasets for the paper:
+This repository contains source codes and datasets for our **CIKM'25** paper:
 
-- Multi-Behavior Intent Disentanglement via Information Bottleneck Principle for Recommendation
+- Multi-Behavior Intent Disentanglement for Recommendation via Information Bottleneck Principle
 
 ## Usage
 ### Train & Test
@@ -25,4 +25,17 @@ python main.py --dataset=retailrocket
 - Testing MBID using a saved model file:
 ```shell
 ipython evaluation.ipynb
+```
+
+## Citation
+
+If you find this work useful, please cite our paper:
+
+```bibtex
+@inproceedings{MBID,
+    title = {Multi-Behavior Intent Disentanglement for Recommendation via Information Bottleneck Principle},
+    author = {Xu, Tongxin and Bin, Chenzhong and Xiao, Cihan and Li, Yunhui and Gu, Tianlong},
+    booktitle = {Proceedings of the 34th ACM International Conference on Information and Knowledge Management},
+    year = {2025}
+}
 ```
